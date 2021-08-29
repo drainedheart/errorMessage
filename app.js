@@ -1,7 +1,23 @@
-let errorParagraph = document.getElementById("error")
-console.log(errorParagraph)
+let num1 = 26
+let num2 = 24
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
 
-function purchase() {
-    console.log("button clicked")
-    errorParagraph.textContent = "something went wrong,please try again"
+let sumEl = document.getElementById("sum-el")
+
+function add() {
+    let result = num1 + num2
+    sumEl.textContent = "sum: " + result
+}
+function subtract() {
+    let result = num1 - num2
+    sumEl.textContent = "sum: " + result
+}
+function divide() {
+    let result = num1 / num2
+    sumEl.textContent = "sum: " + result
+}
+function multiply() {
+    let result = num1 * num2
+    sumEl.textContent = "sum: " + result
 }

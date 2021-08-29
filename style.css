@@ -1,0 +1,27 @@
+body {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+img {
+    display: block;
+    width: 200px;
+}
+p {
+    font-weight: 600;
+    margin: 5px;
+}
+button {
+    background: white;
+    color: black;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#error {
+    color: red;
+    font-weight: 200;
+}
